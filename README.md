@@ -1,6 +1,6 @@
 # Museum Opdracht LAM
 
-![lam logo](lamlogo.png)
+![lam logo](lamlogo1.png)
 
 
 ### Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
