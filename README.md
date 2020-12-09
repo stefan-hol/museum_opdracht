@@ -14,4 +14,4 @@ License
 ----
 
 **Made by Tijmen & Stefan**
-Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
+
