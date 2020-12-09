@@ -10,7 +10,7 @@
  - SLIDESHOW
  - HTML/CSS Basic
 
-License
+Credits
 ----
 
 **Made by Tijmen & Stefan**
