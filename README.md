@@ -1,6 +1,6 @@
 #Museum Opdracht LAM
 
-![](https://jtravel.nl/images/Bollenstreek/Lisse/Lisse-027.jpg)
+![](https://github.com/stefan-hol/museum_opdracht/blob/main/lamlogo1.png)
 
 
 ###Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
