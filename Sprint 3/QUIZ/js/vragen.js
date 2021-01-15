@@ -3,13 +3,13 @@ const quiz1 =
     "quizID": "Museum 1",
     "quizMetaData":
     {
-		"title": "Wat is uw favourite kunstwerk?",
+		"title": "Wat is uw favourite kunstwerk...",
 
     },
     "quizContent":		
 		[
 			{
-				"question": "Houd u van porselein?",
+				"question": "Houdt u van porselein?",
 				"answers": [{
 						"answer": "Ja",
 						"feedback": true
@@ -21,7 +21,7 @@ const quiz1 =
 				]
 			},
 			{
-				"question": "Houd u van objecten?",
+				"question": "Houdt u van objecten?",
 				"answers": [{
 						"answer": "Ja",
 						"feedback": false
@@ -33,7 +33,7 @@ const quiz1 =
 				]
 			},
 			{
-				"question": "Houd u van pakketjes?",
+				"question": "Houdt u van pakketjes?",
 				"answers": [{
 						"answer": "Ja",
 						"feedback": true
@@ -45,7 +45,7 @@ const quiz1 =
 				]
 			},
 			{
-				"question": "Houd van een groot of een klein kunstwerk?",
+				"question": "Houdt van een groot of een klein kunstwerk?",
 				"answers": [{
 						"answer": "Klein",
 						"feedback": true
