@@ -1,6 +1,6 @@
 #Museum Opdracht LAM
 
-Markdown ! [] (http://30957.hosts1.ma-cloud.nl/beroepsopdracht/Museum_Opdracht/Sprint 1/HTML/images/lamlogo.png)
+![](https://jtravel.nl/images/Bollenstreek/Lisse/Lisse-027.jpg)
 
 
 ###Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
