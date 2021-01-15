@@ -1,0 +1,351 @@
+body   {
+	background-color:white;
+	padding:0;
+	margin:0;
+}
+
+	
+header{
+		background:black;
+	}
+main 
+{ width: 1050px;
+ margin: 0 auto;    
+}
+
+img.logo {
+
+	width:200px;
+	height:100px;
+}
+nav
+{height:61px;
+background: gray;
+}
+
+li {float: left;
+list-style: none;
+}
+
+ul { margin:0;
+padding:0;
+}
+
+
+nav > ul > li > a{
+ display: block;
+ height:50px;
+ background: black;
+ padding: 0px 10px 0px 10px;
+ color:white;
+ text-decoration: none;
+ line-height: 50px;
+}
+
+nav > ul > li > a:hover    {
+	background:#993366;
+}
+
+p.sansserif {
+    font-family:fantasy;
+	
+}
+a.button{
+	font-family : Comic Sans MS;
+	display : block;
+	line-height : 40px;
+	background-color : transparent;
+	color : #FFF;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-weight : 300;
+	font-size : 13px;
+	padding : 4 204.25px;
+	border : solid 1px #fff ;
+	transition : .3s;
+}
+
+a.button:hover{
+	color : #000;
+	background-color : #fff;
+	border : solid 1px #000 ;
+
+}
+a.homepagequizbutton{
+	font-family : Comic Sans MS;
+	display : block;
+	line-height : 40px;
+	background-color : transparent;
+	color : rgb(0, 0, 0);
+	text-decoration : none;
+	font-weight : 300;
+	font-size : 20px;
+	border : solid 1px rgb(0, 0, 0) ;
+  transition : .3s;
+  width: 100px;
+}
+
+a.homepagequizbutton:hover{
+	color : rgb(255, 255, 255);
+	border : solid 1px rgb(255, 255, 255) ;
+
+}
+
+a.koopbutton{
+	font-family : Comic Sans MS;
+	display : inline-block;
+	line-height : 40px;
+	background-color : gray;
+	color : #FFF;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-weight : 300;
+	font-size : 13px;
+	padding : 0 20px;
+	border-radius : 50px;
+	border : solid 1px #fff ;
+	transition : .3s;
+}
+a.koopbutton:hover{
+	color : #000;
+	background-color : #fff;
+	border : solid 1px #000 ;
+
+
+}
+input[type=text], input[type=submit] {
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-decoration : none;
+  border : solid 1px #fff ;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  text-align: left;
+  color: white;
+  font-family : Comic Sans MS;
+}
+article {
+  outline: 5px solid black;
+  background-color: rgb(162, 162, 162);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family : Comic Sans MS;
+} 
+.review1{
+  font-family : Comic Sans MS;
+  letter-spacing: .2em;
+  font-size: 15pt;
+  text-align: center;
+  padding-top: 200px;
+  }
+  
+  .review2{
+    font-family : Comic Sans MS;
+  display: none;
+  letter-spacing: .2em;
+  font-size: 15pt;
+  text-align: center;
+  padding-top: 200px;
+  
+  }
+  .Clickbtn{
+    font-family : Comic Sans MS;
+    display : block;
+    line-height : 40px;
+    background-color : transparent;
+    color: black;
+    text-decoration : none;
+    font-weight : 300;
+    font-size : 20px;
+    border : solid 5px black ;
+    transition : .3s;
+    width: 300px;
+
+  }
+  .Clickbtn:hover{
+    color : white;
+    background-color : black;
+  
+  }
+  
+  .review3{
+  font-family : Comic Sans MS;
+  display: none;
+  letter-spacing: .2em;
+  font-size: 15pt;
+  text-align: center;
+  padding-top: 200px;
+  
+  }
+  
+  .review4{
+  font-family : Comic Sans MS;
+  display: none;s
+  letter-spacing: .2em;
+  font-size: 15pt;
+  text-align: center;
+  padding-top: 200px;
+  }
+
+  .video{
+    display : inline-block;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 25pt;
+    outline: 5px solid black;
+    background-color: rgb(162, 162, 162);
+    padding: 4 15px;
+    width: 1200px;
+
+  }
+  
+  .homepagequiz{
+    display : inline-block;
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 25pt;
+    outline: 5px solid rgb(0, 0, 0);
+    width: 1200px;
+    color: rgb(0, 0, 0);
+
+
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: static;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

@@ -1,17 +1,17 @@
-# Museum Opdracht LAM
+#Museum Opdracht LAM
 
-![lam logo](lamlogo1.png)
+Markdown ! [] (http://30957.hosts1.ma-cloud.nl/beroepsopdracht/Museum_Opdracht/Sprint 1/HTML/images/lamlogo.png)
 
 
-### Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
+###Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
 
 ### Recent edit's
 
  - SLIDESHOW
  - HTML/CSS Basic
 
-Credits
+License
 ----
 
 **Made by Tijmen & Stefan**
-
+Onze Trello page:https://trello.com/b/MrELnuYz/museum-opdracht
