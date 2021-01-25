@@ -1,5 +1,5 @@
 body   {
-	background-color:white;
+	background-color:rgb(141, 104, 87);
 	padding:0;
 	margin:0;
 }
@@ -18,32 +18,32 @@ img.logo {
 	width:200px;
 	height:100px;
 }
-nav
-{height:61px;
-background: gray;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-li {float: left;
-list-style: none;
+li {
+  float: left;
 }
 
-ul { margin:0;
-padding:0;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-
-nav > ul > li > a{
- display: block;
- height:50px;
- background: black;
- padding: 0px 10px 0px 10px;
- color:white;
- text-decoration: none;
- line-height: 50px;
+li a:hover:not(.active) {
+  background-color: rgb(82, 82, 82);
 }
 
-nav > ul > li > a:hover    {
-	background:#993366;
+.active {
+  background-color: #4CAF50;
 }
 
 p.sansserif {
@@ -51,7 +51,7 @@ p.sansserif {
 	
 }
 a.button{
-	font-family : Comic Sans MS;
+	font-family : sans-serif;
 	display : block;
 	line-height : 40px;
 	background-color : transparent;
@@ -60,19 +60,19 @@ a.button{
 	text-transform : uppercase;
 	font-weight : 300;
 	font-size : 13px;
-	padding : 4 204.25px;
+	padding : 4 204.95px;
 	border : solid 1px #fff ;
 	transition : .3s;
 }
 
 a.button:hover{
 	color : #000;
-	background-color : #fff;
+	background-color :rgb(82, 82, 82);
 	border : solid 1px #000 ;
 
 }
 a.homepagequizbutton{
-	font-family : Comic Sans MS;
+	font-family : sans-serif;
 	display : block;
 	line-height : 40px;
 	background-color : transparent;
@@ -86,16 +86,16 @@ a.homepagequizbutton{
 }
 
 a.homepagequizbutton:hover{
-	color : rgb(255, 255, 255);
-	border : solid 1px rgb(255, 255, 255) ;
+	color : rgb(82, 82, 82);
+	border : solid 1px rgb(82, 82, 82) ;
 
 }
 
 a.koopbutton{
-	font-family : Comic Sans MS;
+	font-family : sans-serif;
 	display : inline-block;
 	line-height : 40px;
-	background-color : gray;
+	background-color :  #333;
 	color : #FFF;
 	text-decoration : none;
 	text-transform : uppercase;
@@ -108,7 +108,7 @@ a.koopbutton{
 }
 a.koopbutton:hover{
 	color : #000;
-	background-color : #fff;
+	background-color : rgb(82, 82, 82);
 	border : solid 1px #000 ;
 
 
@@ -129,18 +129,18 @@ footer {
   padding: 15px;
   text-align: left;
   color: white;
-  font-family : Comic Sans MS;
+  font-family : sans-serif;
 }
 article {
   outline: 5px solid black;
-  background-color: rgb(162, 162, 162);
+  background-color: #333;
   padding: 15px;
   text-align: center;
   color: white;
-  font-family : Comic Sans MS;
+  font-family : sans-serif;
 } 
 .review1{
-  font-family : Comic Sans MS;
+  font-family : sans-serif;
   letter-spacing: .2em;
   font-size: 15pt;
   text-align: center;
@@ -148,7 +148,7 @@ article {
   }
   
   .review2{
-    font-family : Comic Sans MS;
+    font-family : sans-serif;
   display: none;
   letter-spacing: .2em;
   font-size: 15pt;
@@ -157,7 +157,7 @@ article {
   
   }
   .Clickbtn{
-    font-family : Comic Sans MS;
+    font-family : sans-serif;
     display : block;
     line-height : 40px;
     background-color : transparent;
@@ -177,7 +177,7 @@ article {
   }
   
   .review3{
-  font-family : Comic Sans MS;
+  font-family : sans-serif;
   display: none;
   letter-spacing: .2em;
   font-size: 15pt;
@@ -187,21 +187,22 @@ article {
   }
   
   .review4{
-  font-family : Comic Sans MS;
+  font-family : sans-serif;
   display: none;s
   letter-spacing: .2em;
   font-size: 15pt;
   text-align: center;
   padding-top: 200px;
+
   }
 
   .video{
     display : inline-block;
-    font-family: Comic Sans MS;
+    font-family: sans-serif;
     text-align: center;
     font-size: 25pt;
     outline: 5px solid black;
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(141, 141, 141);
     padding: 4 15px;
     width: 1200px;
 
@@ -209,7 +210,7 @@ article {
   
   .homepagequiz{
     display : inline-block;
-    font-family: Comic Sans MS;
+    font-family: sans-serif;
     text-align: center;
     font-size: 25pt;
     outline: 5px solid rgb(0, 0, 0);
