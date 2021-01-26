@@ -9,7 +9,7 @@ const quiz1 =
     "quizContent":		
 		[
 			{
-				"question": "Houdt u van porselein?",
+				"question": "Houdt u van geschiedenis?",
 				"answers": [{
 						"answer": "Ja",
 						"feedback": true
@@ -24,16 +24,16 @@ const quiz1 =
 				"question": "Houdt u van objecten?",
 				"answers": [{
 						"answer": "Ja",
-						"feedback": false
+						"feedback": true
 					},
 					{
 						"answer": "Nee",
-						"feedback": true
+						"feedback": false
 					}
 				]
 			},
 			{
-				"question": "Houdt u van pakketjes?",
+				"question": "Houdt u van kunst met karakter?",
 				"answers": [{
 						"answer": "Ja",
 						"feedback": true
@@ -45,13 +45,13 @@ const quiz1 =
 				]
 			},
 			{
-				"question": "Houdt van een groot of een klein kunstwerk?",
+				"question": "Houdt van een hippe of klassieke kunst?",
 				"answers": [{
-						"answer": "Klein",
+						"answer": "hip",
 						"feedback": true
 					},
 					{
-						"answer": "Groot",
+						"answer": "klassiek",
 						"feedback": false
 					}
 				]
