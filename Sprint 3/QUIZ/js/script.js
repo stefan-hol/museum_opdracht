@@ -78,13 +78,21 @@ function evaluate(evt) {
 }
 
 function finishQuiz() {
-  if(playerData.goodAnswers == 1 || playerData.goodAnswers == 2){
+  if(playerData.goodAnswers == 1){
         resultBox.innerHTML = "<h2>Uw favourite kunstwerk is:</h2>"
         resultBox.innerHTML +="<img src=\"https://cdn.discordapp.com/attachments/780426570849976382/799654987717279754/porselein.PNG\" width=\"250px\" height=\"150px\">";
   }
 
+  if(playerData.goodAnswers == 2){
+        resultBox.innerHTML = "<h2>Uw favourite kunstwerk is:</h2>"
+        resultBox.innerHTML +="<img src=\"https://3.bp.blogspot.com/-7kU0vZcxNvc/XAJUbMoR-xI/AAAAAAABKc4/9vQgbW3FMJUvt0Xd3A65ddI6CxeocZzdQCLcBGAs/s1600/IMG_7651.JPG\" width=\"250px\" height=\"150px\">";
+}
+  if(playerData.goodAnswers == 3){
+        resultBox.innerHTML = "<h2>Uw favourite kunstwerk is:</h2>"
+        resultBox.innerHTML +="<img src=\"https://www.lamlisse.nl/wp-content/uploads/2020/04/FRIE-319-Untitled-Self-Portrait_6-scaled.jpg\" width=\"150px\" height=\"250px\">";
+}  
 
-  if(playerData.goodAnswers == 3 || playerData.goodAnswers == 4){
+  if(playerData.goodAnswers == 4){
 
         resultBox.innerHTML = "<h2>Uw favourite kunstwerk is:</h2>"
         resultBox.innerHTML +="<img src=\"https://cdn.discordapp.com/attachments/780426570849976382/799654986802790411/doos.PNG\" width=\"250px\" height=\"350px\">";
